@@ -111,7 +111,7 @@ def scrape_urls(frm, to):
 
 
 def run():
-
+    """Run function."""
     total_start_time = datetime.datetime.now()
 
     t1 = threading.Thread(target=scrape_urls, args=(0, 300))
